@@ -38,6 +38,7 @@ public class Alerts {
         prompt_alert.sendKeys("test");
         Thread.sleep(2000);
         System.out.println("Prompt Text: " + prompt_alert.getText());
+        System.out.println("Test");
 
 //        prompt_alert.accept();
 //        driver.close();
